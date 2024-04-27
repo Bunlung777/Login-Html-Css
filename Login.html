@@ -9,50 +9,64 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
      <script src="./tailwindconfig.js"></script>
      <link href="./Login.css" rel="stylesheet" />
-</head>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+    </head>
 <body>
     <section class="bg-white">
-        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-            <div class="flex justify-center mb-5">
+        <div class="flex flex-col items-center justify-center px-6 py-8 mt-[50px]">
+            <img class="absolute inset-0 w-full h-[35rem] z-0" src="./Img/Rectangle3.png" alt="Background Image">
+            <div class="flex justify-center mb-5 z-10 w-[200px]">
                 <img class="w-[5rem] h-[5rem] mr-2 rounded" src="./Img/Logo-mhesi.webp" >
                 <img class="w-[6rem] h-[5rem] mr-2 rounded" src="./Img/239411864_4654766004542360_3179706633732169401_n.png">
                 <img class="w-[10rem] h-[5rem] mr-2 rounded" src="./Img/logo-1.webp" >
                 <img class="w-[5rem] h-[5rem] mr-2 rounded" src="./Img/437910437_2044455015955252_467413196700463731_n.png" >
-            </div>
-            <div class="w-[40rem]  bg-white rounded-lg shadow-xl border border-grey-600 ">
 
-                <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-                    <div class="flex justify-center">
-                    <h1 class="text-2xl  font-bold leading-tight tracking-tight text-gray-900 ">
+            </div>
+            <div class="w-[40rem] h-[39rem] bg-white shadow-xl border border-grey-600 z-10">
+                <div class="p-6 space-y-4 md:space-y-6 sm:p-8 mt-[10rem]">
+                    <div class="absolute mt-[-3rem] ml-[14rem]">
+                        <h1 class="text-[34px] font-bold leading-tight tracking-tight text-gray-900 prompt-regular">
                         เข้าสู่ระบบ
                     </h1>
-                </div>
-                    <form class="space-y-4 md:space-y-6" action="#">
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ชื่อผู้ใช้งาน</label>
-                            <input type="text" class="input-style">
-                        </div>
-                        <div>
-                            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">รหัสผ่าน</label>
-                            <input type="password"  class="input-style" >
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-start">
-                                <div class="flex items-center h-5">
-                                    <label class="inline-flex items-center cursor-pointer">
-                                        <input type="checkbox" value="" class="sr-only peer">
-                                        <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                                        <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Toggle me</span>
-                                      </label>
-                                </div>
+                    <img class="absolute inset-0 w-[50px] h-[50px] z-0 ml-[-50px] mt-[-65px]" src="./Img/LOGO.png" alt="Background Image">
+                    <h1 class="text-[25px] font-bold leading-tight tracking-tight text-gray-900 zen-kaku mt-[-100px] ml-[10px]">
+                        <span class="prompt-regular">ระบบเก็บข้อมูล</span>
+                    </h1>
+                </div>  
+                <form class="" action="#">
+                    <div class="justify-center relative">
+                        <div class="ml-[6.5rem] top-3 absolute text-zinc-600 text-xs font-normal  leading-tight zen-kaku ">USERNAME</div>
+                        <input type="text" class="input-style mx-auto zen-kaku" placeholder="exmaple@gmail.com" style="padding-top: 40px;">
+                    </div>
+                    <!-- <div class="ml-[5.45rem] w-[25rem] h-0.5 bg-white z-10 absolute"></div> -->
+                    <div class="justify-center relative">
+                        <div class="ml-[6.5rem] top-3 absolute text-zinc-600 text-xs font-normal  leading-tight zen-kaku ">PASSWORD</div>
+                        <input type="text" class="input-style mx-auto outlinetop zen-kaku" placeholder="************" style="padding-top: 40px;">
+                    </div>
+                    <div class="flex items-center justify-between mt-[1rem] ml-[5.4rem]">
+                        <div class="flex items-start">
+                            <div class="flex items-center h-5">
+                                <label class="inline-flex items-center cursor-pointer">
+                                    <input id="remember" aria-describedby="remember" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800">
+                                    <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300 prompt-regular ">
+                                        จดจำฉัน</span>
+                                </label>
                             </div>
-                            <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
                         </div>
-                        <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Sign in</button>
-                    </form>
+                        <a href="#" class="text-sm font-medium text-[#4F79BC] hover:underline mr-[5.5rem] prompt-regular ">ลืมรหัสผ่าน?</a>
+                    </div>
+                    <div class="ml-[5.5rem]">
+                    <button type="submit" class="w-[25rem] h-[4rem] mt-5 mr-[10rem] text-white bg-[#4F79BC] hover:bg-[#4273B2] focus:ring-4 focus:outline-none focus:ring-[#5DA4FF] font-medium  text-lg px-5 py-2.5 text-center prompt-regular ">เข้าสู่ระบบ</button>
+                </div>
+                </form>
                 </div>
             </div>
         </div>
+        <!-- <div class="flex justify-center"><h1 class="mt-5 text-gray-400"><span class="prompt-regular">มหาวิทยาลัยราชภัฏเลย</span></h1></div> -->
+        <div class="w-full h-[10px] bg-[#4F79BC] mt-[63px]"></div>
       </section>
 </body>
 
