@@ -55,3 +55,39 @@
   .button:hover .button-decor {
     transform: translate(0);
   }
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  th {
+    padding: 0.875rem 1rem; /* px-4 py-3.5 */
+    font-size: 0.875rem; /* text-sm */
+    font-weight: normal; /* font-normal */
+    text-align: left; /* text-left */
+    color: #6b7280; /* text-gray-500 */
+    font-family: "Sarabun", sans-serif; /* corrected font-family */
+}
+.sidebaricon {
+  width: 100%;
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  padding: 2px;
+  padding-left: 8px;
+  border-radius: 9999px; /* Just a large value to make it round */
+  transition: transform 0.3s ease-in-out; /* Transition effect */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px; /* Space between flex items */
+}
+.sarabun-regular {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sarabun-Large {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
